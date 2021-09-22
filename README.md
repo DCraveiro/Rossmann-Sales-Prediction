@@ -81,9 +81,9 @@ These chosen algorithm was the **XGBoost Regressor**, besides performing slightl
 
 These are the metrics obtained using a cross validation method.
 
-| Model Name        | MAE    | MAPE | RMSE    |
-|:------------------|:-------|:-----|:--------|
-| XGBoost Regressor | 766.01 | 0.12 | 1097.83 |
+| Model Name        | MAE       | MAPE   | RMSE       |
+|:------------------|:----------|:-------|:-----------|
+| XGBoost Regressor | 766.01 \$ | 0.12 % | 1097.83 \$ |
 
 # 7. Business Results
 
