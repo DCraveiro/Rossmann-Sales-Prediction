@@ -6,22 +6,8 @@ import json
 from flask import Flask, request, Response
 
 # constants
-TOKEN = '1951428412:AAFJVoz3tZlwm2ZH-3nVRb0NGBWK4NgFg2c'
+TOKEN = 'define_your_token'
 
-# # Bot info
-# https://api.telegram.org/bot1951428412:AAFJVoz3tZlwm2ZH-3nVRb0NGBWK4NgFg2c/getMe
-#
-# # Get updates
-# https://api.telegram.org/bot1951428412:AAFJVoz3tZlwm2ZH-3nVRb0NGBWK4NgFg2c/getUpdates
-#
-# # Webwook
-# https://api.telegram.org/bot1951428412:AAFJVoz3tZlwm2ZH-3nVRb0NGBWK4NgFg2c/setWebhook?url=https://c94402d480b726.localhost.run
-#
-# # Webwook Heroku
-# https://api.telegram.org/bot1951428412:AAFJVoz3tZlwm2ZH-3nVRb0NGBWK4NgFg2c/setWebhook?url=https://rossmann-sales-bot.herokuapp.com
-#
-# # Send message
-# https://api.telegram.org/bot1951428412:AAFJVoz3tZlwm2ZH-3nVRb0NGBWK4NgFg2c/sendMessage?chat_id=1781930753&text=Hi Debora, I am doing good, thks!
 
 def send_message(chat_id, text):
     url = 'https://api.telegram.org/bot{}/'.format(TOKEN)
