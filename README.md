@@ -6,7 +6,7 @@
     <img src='img/img_banner.jpg'<
 </p>
 
-**For an interactive storytelling, please access the Storytelling notebook.**
+**For an interactive storytelling, please access the Storytelling notebook using the Rise library listed on the requirement.txt file.**
 
 The Telegram bot is available on the following link: [![Telegram Badge](https://img.shields.io/badge/-Telegram-white?style=flat&logo=Telegram&logoColor=white)](https://t.me/predict_rossmann_bot)
 
